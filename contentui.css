@@ -1,0 +1,59 @@
+#chatui{
+    position: fixed;
+    top:20px;
+    left:20px;
+    z-index: 999;
+    background-color: #50A0E5;
+    padding: 30px 10px 10px;
+    cursor: pointer;
+}
+
+#msgui{
+    border: 2px solid red;
+    padding: 20px 0px 5px;
+    background-color: #FAFFA0;
+}
+
+.h{
+    display: none;
+}
+
+.foc{
+    background-color: #FFCCBE;
+    cursor: pointer;
+    user-select:none;
+}
+
+.nos{
+    -webkit-user-select:none;
+    cursor: pointer;
+}
+
+.msgpos{
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.setmsg{
+    position: fixed;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fixpos{
+    position: absolute;
+    z-index: 990;
+}
+.fixpos>span:nth-child(2){
+    display: none;
+}
+
+.fixpos:hover>span:nth-child(2){
+    display: initial;
+}
+
+.fixpos>span:nth-child(1){
+    background-color: red;
+}
